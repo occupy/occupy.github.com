@@ -7,15 +7,17 @@
     <link href="stylesheets/signs.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/application.js"></script>
+    <script type="text/javascript" src="javascripts/locale.js"></script>
     <script type="text/javascript" src="javascripts/tweets.js"></script>
     <script type="text/javascript" src="javascripts/signs.js"></script>
+    <script type="text/javascript" src="javascripts/twitter.js"></script>
+    <script type="text/javascript" src="javascripts/facebook.js"></script>
   </head>
   <body>
-    <div id="fb-root"></div>
     <div id="header">
       <div id="nav">
-        <a href="http://occupysf.com/" id="navHome">Home</a>
-        <a href="#" id="navLive">SF Live</a>
+        <a href="http://occupythehub.com/" id="navHome">Home</a>
+        <a href="#" id="navLive">Live</a>
       </div>
     </div>
     <div id="main">
@@ -23,18 +25,11 @@
       <div id="chat">
         <h2 id="joinConvo"></h2>
         <div id="chatContainer">
-          <iframe width="300" height="562" src="http://cdn.livestream.com/embed/occupyfdsf?layout=6&showTimestamp=true&height=530&width=300" style="border:0;outline:0" frameborder="0" scrolling="no" bgcolor="#ffffff"></iframe>
+          <iframe width="300" height="562" src="" style="border:0;outline:0" frameborder="0" scrolling="no" bgcolor="#ffffff"></iframe>
         </div>
       </div>
-	<div id="likeBox">
+	  <div id="likeBox">
 		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) {return;}
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=125319027565797";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
 	  </div>
       <div id="twitterBox">
         <div id="twitterText">
@@ -43,18 +38,18 @@
         </div>
 	  </div>
       <div id="vidPlayer">
-        <iframe width="480" height="295" src="http://cdn.livestream.com/embed/occupyfdsf?layout=4&color=0xe7e7e7&autoPlay=true&mute=false&iconColorOver=0x888888&iconColor=0x777777&allowchat=true&height=295&width=480" style="border:0;outline:0" frameborder="0" scrolling="no"></iframe>
+        <iframe width="480" height="295" src="" style="border:0;outline:0" frameborder="0" scrolling="no"></iframe>
       </div>
       <div id="crowd">
-        <div id="position1" class="person anna"></div>
-        <div id="position2" class="person brad"></div>
-        <div id="position3" class="person clarissa"></div>
-        <div id="position4" class="person dawson"></div>
-        <div id="position5" class="person anna"></div>
-        <div id="position6" class="person brad"></div>
-        <div id="position7" class="person clarissa"></div>
-        <div id="position8" class="person dawson"></div>
-        <div id="position9" class="person anna"></div>
+        <div id="position1"  class="person anna"></div>
+        <div id="position2"  class="person brad"></div>
+        <div id="position3"  class="person clarissa"></div>
+        <div id="position4"  class="person dawson"></div>
+        <div id="position5"  class="person anna"></div>
+        <div id="position6"  class="person brad"></div>
+        <div id="position7"  class="person clarissa"></div>
+        <div id="position8"  class="person dawson"></div>
+        <div id="position9"  class="person anna"></div>
         <div id="position10" class="person brad"></div>
         <div id="position11" class="person clarissa"></div>
         <div id="position12" class="person dawson"></div>
@@ -98,8 +93,9 @@
         <div id="sign5" class="sign"></div>
       </div>
     </div>
-      <div id="footerTop"></div>
+    <div id="footerTop"></div>
     <div id="footer"></div>
+
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-26334975-1']);
