@@ -1,0 +1,48 @@
+/* the box inwhich the ACTIVE crowd lives */
+#crowd {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+/* general style of a person */
+.person {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+/* because names are more fun... :)
+   NOTE: this is still an ordered set so please maintain alphabetically order
+   I went w/ classes instead of ids because I'll have to repeat while the image set is small.
+   Each class its own image and minor changes.
+ */
+
+.anna{
+  background: url('../images/crowd/anna_active.png');
+  width: 63px;
+  height: 215px;
+}
+
+.brad{
+  background: url('../images/crowd/brad_active.png');
+  width: 99px;
+  height: 237px;
+}
+
+.clarissa{
+  background: url('../images/crowd/clarissa_active.png');
+  width: 63px;
+  height: 234px;
+}
+
+.dawson{
+  background: url('../images/crowd/dawson_active.png');
+  width: 61px;
+  height: 248px;
+}
+
+.eric{
+  background: url('../images/crowd/dawson_active.png');
+  width: 61px;
+  height: 248px;
+}

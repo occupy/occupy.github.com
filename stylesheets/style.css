@@ -1,0 +1,192 @@
+body {
+  background: url('../images/background_tile_top.jpg');
+  padding: 0px;
+  margin: 0px;
+  min-width: 1100px;
+}
+
+#header {
+  background: url('../images/navbar_tile.png');
+  height: 40px;
+}
+
+#nav {
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#nav a {
+  display: block;
+  float: left;
+  margin-right: 9px;
+}
+
+#navHome{
+  background: url('../images/nav/navbutton.png');
+  height: 20px;
+  width: 130px;
+  margin-top: 5px;
+  font: 75% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 4px;
+}
+
+#navHome:hover {
+  background: url('../images/nav/navbutton_over.png');
+  height: 20px;
+  width: 130px;
+}
+
+#navLive{
+  background: url('../images/nav/navbutton_down.png');
+  height: 20px;
+  width: 130px;
+  margin-top: 5px;
+  font: 75% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 4px;
+}
+#navCities{
+  background: url('../images/nav/navbutton.png');
+  height: 20px;
+  width: 130px;
+  margin-top: 5px;
+  font: 75% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 4px;
+}
+#navCities:hover {
+  background: url('../images/nav/navbutton_over.png');
+  height: 20px;
+  width: 130px;
+}
+
+#main {
+  position: relative;
+  background: url('../images/building.jpg') no-repeat top left;
+  height: 634px;
+}
+
+#logo {
+  background: url('../images/logo.png') no-repeat;
+  width: 295px;
+  height: 257px;
+  position: absolute;
+  top: 45px;
+  left: 5px;
+}
+
+#vidPlayer {
+  padding-top: 177px;
+  margin-left: 214px;
+  margin-right: 96px;
+}
+
+#chat {
+  position: relative;
+  z-index: 100;
+  float: right;
+  background: url('../images/chat_bgvert.png') repeat-y;
+  width: 344px;
+
+}
+
+#chatContainer {
+  padding-left: 24px;
+  padding-bottom: 7px;
+  padding-top: 10px;
+}
+
+#joinConvo {
+  background: url('../images/chat_header.png') no-repeat;
+  width: 344px;
+  height: 50px;
+  margin: 0px;
+  position: relative;
+  top: -1px;
+}
+
+#footerTop {
+  background: url('../images/midbar.png') repeat-x;
+  height: -4px;
+  position: relative;
+  top: 150px;
+}
+
+#footer {
+  min-height: 438px;
+  background: url('../images/ground_tile.jpg') repeat-x;
+/* 
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 162px;
+*/}
+
+#fbBox {
+  background: url('../images/fbbox.jpg') no-repeat;
+  width: 301px;
+  height: 116px;
+  position: relative;
+  top: -4.5px;
+  left: 140px;
+}
+
+#twitterText{
+  position: relative;
+  left: 15px;
+  bottom: -62px;
+}
+
+#twitterText textarea{
+  bottom: -45px;
+  overflow: hidden;
+  width: 215px;
+  height: 40px;
+  resize: none;
+}
+
+#twitterBox {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  background: url('../images/twitterbox.jpg') no-repeat;
+  width: 301px;
+  height: 117px;
+}
+.fb-like {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  background: url('../images/twitterbox.jpg') no-repeat;
+  width: 250px;
+  height: 117px;
+}
+
+#fbShare {
+  background: url('../images/facebook_share.jpg');
+  width: 232px;
+  height: 26px;
+  display: block;
+  top: 160px;
+  left: 57px;
+  position: relative;
+}
+
+#fbShare:hover {
+  background: url('../images/facebook_share_over.jpg');
+}

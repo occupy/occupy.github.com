@@ -1,0 +1,71 @@
+/* the master style */
+.sign {
+  display: none;
+  position: absolute;
+  background: url('../images/sign.png');
+  background-repeat: no-repeat;
+  width: 197px;
+  height: 123px;
+  z-index: 10;
+  padding: 10px;
+}
+.sign.active {
+  display: block;
+}
+
+/* individual signs */
+#sign1 {
+  left: 39px;
+  bottom: 267px;
+ margin-top: 10px;
+  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
+}
+
+#sign2 {
+  left: 76px;
+  bottom: 68px;
+  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
+}
+
+#sign3 {
+  left: 375px;
+  bottom: 175px;
+  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
+}
+
+#sign4 {
+  left: 570px;
+  bottom: 120px;
+  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
+}
+
+#sign5 {
+  left: 756px;
+  bottom: 255px;
+  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
+}
