@@ -1,9 +1,9 @@
 // This file contains the code the make the site location specific.
 
 var hashtag = 'occupyfdsf';  // used by twitter.js
-var city = 'SF';
-var parentUrl = 'http://occupysf.com';
-var livestreamUrl = "cdn.livestream.com/embed/occupyfdsf";
+var city = 'SF';  // the two letter city abbv
+var parentUrl = 'http://occupysf.com';  // the site we want to link back to
+var livestreamUrl = "cdn.livestream.com/embed/occupyfdsf";  // the livestream URL for both video and chat
 
 
 $(function(){
