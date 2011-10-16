@@ -1,3 +1,5 @@
+/* controls positioning of people.  lower numbers are behind higher numbered people */
+
 #position1{
   left: 143px;
   bottom: 81px;

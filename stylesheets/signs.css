@@ -1,4 +1,4 @@
-/* the master style */
+/* general style for a sign*/
 .sign {
   display: none;
   position: absolute;
@@ -8,7 +8,16 @@
   height: 123px;
   z-index: 10;
   padding: 10px;
+
+  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
 }
+
+/* display sign when it becomes active */
 .sign.active {
   display: block;
 }
@@ -17,55 +26,25 @@
 #sign1 {
   left: 39px;
   bottom: 267px;
- margin-top: 10px;
-  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 14px;
+  margin-top: 10px;
 }
 
 #sign2 {
   left: 76px;
   bottom: 68px;
-  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 14px;
 }
 
 #sign3 {
   left: 375px;
   bottom: 175px;
-  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 14px;
 }
 
 #sign4 {
   left: 570px;
   bottom: 120px;
-  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 14px;
 }
 
 #sign5 {
   left: 756px;
   bottom: 255px;
-  font: 71% "Arial", "Verdana", "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 14px;
 }
